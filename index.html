@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project map1001: Using OpenLayers with Vite</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>   
+    <select id="layerSwitcher">
+      <option value="osm">Open Street Maps</option>
+      <option value="sat">Satellite</option>
+    </select>
+    
+    <select id="type-selector">
+      <option value="Point">Point</option>
+      <option value="LineString">LineString</option>
+      <option value="Polygon">Polygon</option>
+    </select>
+   
+    <button id="btnExport">toGeoJSON</button>
+
+    <div id="feature-info" style="padding: 10px; background: #f0f0f0; font-family: monospace;"></div>
+    <div id="map_element"></div>
+    <script type="module" src="./main.js"></script>
+
+  </body>
+
+  </html>

@@ -1,0 +1,16 @@
+@import "node_modules/ol/ol.css";
+
+html, body {
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+
+}
+
+#map_element { /* this map_element has to be defined in index.html */
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+}
